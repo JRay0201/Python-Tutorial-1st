@@ -16,8 +16,9 @@ print('-------------------------------------------')
 #总结：非0的数值型布尔值都为True
 print(bool(18))
 print(bool(0) , bool(0.0))
+print(bool(None))
 
-
+print('-------------------------------------------')
 print(bool('JRay'))
 print(bool(''))
 
