@@ -17,7 +17,7 @@ hex(x)      将一个整数x转为一个十六进制字符串
 oct(x)      将一个整数x转为一个八进制字符串
 bin(x)      将一个整数x转为一个二进制字符串
 """
-#float类型转成int类型,只保留整数部分
+#float类型转成int类型,只保留整数部分,不会四舍五入
 print('float类型转成int类型',int(3.14))
 print('float类型转成int类型',int(3.9))
 print('float类型转成int类型',int(-3.19))
